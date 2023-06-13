@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Humanbumsuk";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+div {
+  box-sizing: border-box;
+  font-family: "Humanbumsuk";
+}
+
+.head-container {
+  border-bottom: 1px solid skyblue;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.char-box {
+  height: 250px;
+  width: 23%;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.img-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
