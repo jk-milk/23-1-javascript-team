@@ -1,0 +1,40 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "정승민",
+      "position": "프론트엔드대장",
+      "introduction": "내 갸루퀸그다. 무릎 꿇어라.",
+      "image": "./css/lion.png"
+    },
+    {
+      "id": 2,
+      "name": "이민혁",
+      "position": "아이언",
+      "introduction": "브론즈 승급 언제 할려나",
+      "image": "./css/dog민혁.png"
+    },
+    {
+      "id": 3,
+      "name": "유재경",
+      "position": "골드",
+      "introduction": "민혁이보다 잘함!",
+      "image": "./css/shoes.jpg"
+    },
+    {
+      "id": 4,
+      "name": "김지훈",
+      "position": "골드",
+      "introduction": "민혁이보다 잘함!",
+      "image": "./css/profile.png"
+    },
+
+    {
+      "id": 5,
+      "name": "배석민",
+      "position": "골드",
+      "introduction": "민혁이보다 잘함!",
+      "image": "./css/배윈터.jpg"
+    }
+  ]
+}
