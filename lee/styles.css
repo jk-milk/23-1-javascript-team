@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #7a96b1; /* 백그라운드 색상 변경 */
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#app {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#new-post {
+  background-color: #73b1df; /* 백그라운드 색상 변경 */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.post-item {
+  background-color: rgba(255, 255, 255, 0.8); /* 백그라운드 색상 변경 */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.post-item:last-child {
+  margin-bottom: 0;
+}
+
+.edit,
+.delete {
+  margin-top: 10px;
+  padding: 5px 16px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.edit {
+  color: white;
+  background-color: #aed3d8; /* 변경 */
+}
+
+.delete {
+  color: white;
+  background-color: #c3ab9c; /* 변경 */
+  margin-left: 5px;
+}
+
+.comment-section {
+  border-left: 3px solid #ccc;
+  padding-left: 12px;
+  margin-top: 10px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comment-input {
+  flex-grow: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+button[type="submit"] {
+  background-color: #73b1df; /* 백그라운드 색상 변경 */
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.comment {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin-top: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.edit-comment {
+  background-color: #aed3d8; /* 변경 */
+  color: white;
+  padding: 5px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.delete-comment {
+  background-color: #c3ab9c; /* 변경 */
+  color: white;
+  padding: 5px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+textarea[name="content"] {
+  display: block;
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-image: url("pepe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 500;
+}
