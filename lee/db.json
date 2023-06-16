@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "완성",
+      "content": "완성",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "postId": 1,
+      "text": "ㅇㅇㅇ",
+      "id": 1
+    }
+  ]
+}
