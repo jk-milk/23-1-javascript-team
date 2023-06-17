@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>introduce</title>
+    <meta charset="utf-8" />
+    <link href="../introduce/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="#" id="logo">
+        <img src="../introduce/img/team4_logo.png" width="149">
+      </a>
+      <ul id="menu">
+        <li><a href="#">후쿠오카</a></li>
+      </ul>
+    </div>
+    <div class="hero-header"></div>
+    <div class="products">
+      <h3>후쿠오카 현지학기제</h3>
+      <div class="product-list">
+        <!-- 버튼 ID를 추가합니다. -->
+        <a href="#" class="product" id="trip-button">
+          <img src="../introduce/img/trip_logo.png" width="225">
+        </a>
+        
+        <a href="#" class="product" id="study-button">
+          <img src="../introduce/img/study_logo.png" width="225">
+        </a>        
+      </div>
+    </div>
+
+    <div id="modal" class="modal">
+      <!-- 컨텐츠 ID를 제거하고 추가합니다 -->
+      <div class="modal-content" id="trip-content">
+        <p class="modal-content img">
+          <img src="../introduce/img/후쿠오카.jpg">
+        </p>
+        <h2></h2>
+        <h3 class="in-box"></h3>
+        <div class="button-group">
+          <span class="button edit-button">수정</span>
+          <span class="button delete-button">삭제</span>
+          <span class="close-button">닫기</span>
+        </div>
+      </div>
+
+      <div class="modal-content" style="display: none" id="study-content">
+        <p class="modal-content img">
+          <img src="../introduce/img/공부.jpg">
+        </p>
+        <h2></h2>
+        <h3 class="in-box"></h3>
+        <div class="button-group">
+          <span class="button edit-button">수정</span>
+          <span class="button delete-button">삭제</span>
+          <span class="close-button">닫기</span>
+        </div>
+      </div>
+    </div>    
+    
+    <script src="../js/script.js"></script>
+  </body>
+</html>

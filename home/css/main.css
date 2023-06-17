@@ -11,9 +11,6 @@ div {
   font-family: "Humanbumsuk";
 }
 
-.head-container {
-  border-bottom: 1px solid skyblue;
-}
 
 img {
   display: block;
@@ -24,9 +21,9 @@ img {
 
 .char-box {
   padding: 0;
-  height: 250px;
-  width: 23%;
-  margin: 25px;
+  height: 20vw;
+  width: 20vw;
+  margin: 40px;
   cursor: pointer;
   background-color: rgba(18, 120, 154, 0.023);
   border-radius: 50%;
